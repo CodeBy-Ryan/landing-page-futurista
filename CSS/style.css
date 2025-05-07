@@ -168,3 +168,45 @@ header nav ul li:hover::after {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
+.btn {
+  padding: 12px 16px;
+  background: linear-gradient(90deg, #00f7ff, #0066ff);
+  border-radius: 30px;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.arrows {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.arrow-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 247, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.arrow-btn:hover {
+  background-color: rgba(0, 247, 255, 0.2);
+  border-color: #00f7ff;
+}
