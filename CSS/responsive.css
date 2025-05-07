@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+  .product-name {
+    font-size: 3.5rem;
+  }
+
+  .content {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 20px 30px;
+  }
+
+  header nav ul {
+    gap: 24px;
+  }
+
+  .product-name {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  .item {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .product-img img {
+    max-height: 300px;
+  }
+
+  .arrows {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-name {
+    font-size: 2.5rem;
+  }
+
+  .numbers {
+    font-size: 2.5rem;
+  }
+
+  .dot {
+    width: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  header nav ul {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .product-name {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+
+  .numbers {
+    font-size: 2rem;
+  }
+
+  .dot {
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .product-name {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0 10px;
+    align-items: center;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .product-img img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .arrows {
+    width: 100%;
+    top: 15rem;
+    padding: 0 10px;
+  }
+
+  .indecators {
+    bottom: 20px;
+  }
+
+  .numbers {
+    font-size: 1.5rem;
+  }
+
+  .dot {
+    width: 15px;
+  }
+
+  .item {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .list {
+    width: 100%;
+  }
+}
